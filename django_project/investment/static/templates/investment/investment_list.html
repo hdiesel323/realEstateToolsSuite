@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block title %}Investment List{% endblock %}
+{% block content %}
+<h1>Investment List</h1>
+<div>
+  <p>This is where you can view a list of your investments or start a new investment calculation.</p>
+  <a href="{% url 'investment_calculator' %}">New Investment Calculation</a>
+</div>
+{% endblock %}
